@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #837bf7;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+.btn {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 5px auto;
+    padding: 12px;
+    background-color: white; 
+    color: #837bf7;
+    text-decoration: underline;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #5c53ad; /* Efeito hover */
+    color: white
+}
